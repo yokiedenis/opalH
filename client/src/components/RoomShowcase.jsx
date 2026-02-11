@@ -11,10 +11,19 @@ import {
   FaWindowMaximize,
   FaConciergeBell,
 } from "react-icons/fa";
+import * as RoomImages from "@assets/images/index.js";
 import "./RoomShowcase.css";
 
-const API_BASE =
-  import.meta.env.VITE_API_BASE_URL || "http://localhost:5000/api";
+const API_BASE = import.meta.env.VITE_API_BASE_URL;
+
+// Map room image filenames to imports
+const IMAGE_MAP = {
+  "bed1.png": RoomImages.singleRoom,
+  "bed2.png": RoomImages.doubleRoom,
+  "conferenceHall.png": RoomImages.conferenceHall,
+  "pooltable.png": RoomImages.rooftopGarden,
+  "dinnerParty.png": RoomImages.restaurant,
+};
 
 const RoomShowcase = () => {
   const [rooms, setRooms] = useState([]);
@@ -82,6 +91,14 @@ const RoomShowcase = () => {
     return <FaBed />;
   };
 
+  // Function to resolve image paths
+  const getImagePath = (imagePath) => {
+    if (!imagePath) return null;
+    // Extract filename from path (e.g., "bed1.png" or "/src/assets/images/bed1.png")
+    const filename = imagePath.split("/").pop();
+    return IMAGE_MAP[filename] || imagePath;
+  };
+
   // Filter rooms by type
   const filteredRooms =
     filter === "all" ? rooms : rooms.filter((room) => room.type === filter);
@@ -133,7 +150,11 @@ const RoomShowcase = () => {
                 </div>
                 <div className="rooms-grid">
                   {bedrooms.map((room) => (
-                    <RoomCard key={room._id || room.id} room={room} />
+                    <RoomCard
+                      key={room._id || room.id}
+                      room={room}
+                      getImagePath={getImagePath}
+                    />
                   ))}
                 </div>
               </div>
@@ -148,7 +169,11 @@ const RoomShowcase = () => {
                 </div>
                 <div className="rooms-grid facilities-grid">
                   {facilities.map((room) => (
-                    <RoomCard key={room._id || room.id} room={room} />
+                    <RoomCard
+                      key={room._id || room.id}
+                      room={room}
+                      getImagePath={getImagePath}
+                    />
                   ))}
                 </div>
               </div>
@@ -193,7 +218,7 @@ const RoomShowcase = () => {
 };
 
 // Separate Component for Room Card
-const RoomCard = ({ room }) => {
+const RoomCard = ({ room, getImagePath }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [showMoreAmenities, setShowMoreAmenities] = useState(false);
 
@@ -221,7 +246,7 @@ const RoomCard = ({ room }) => {
       <div className="room-image">
         {room.images && room.images[0] ? (
           <>
-            <img src={room.images[0]} alt={room.type} />
+            <img src={getImagePath(room.images[0])} alt={room.type} />
             <div className="image-overlay"></div>
           </>
         ) : (

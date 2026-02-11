@@ -26,9 +26,11 @@ const Reviews = () => {
   const fetchReviews = async () => {
     try {
       setLoading(true);
-      const response = await fetch(
-        `${import.meta.env.VITE_API_URL || "http://localhost:5000"}/api/reviews`,
-      );
+      const API_BASE =
+        import.meta.env.VITE_API_BASE_URL || "http://localhost:5000/api";
+      console.log(`🔍 [Reviews] Fetching reviews from: ${API_BASE}/reviews`);
+      const response = await fetch(`${API_BASE}/reviews`);
+      console.log(`📊 [Reviews] Response status: ${response.status}`);
       if (response.ok) {
         const data = await response.json();
         console.log("✅ Reviews fetched:", data.data);
@@ -86,16 +88,16 @@ const Reviews = () => {
     setSubmitting(true);
 
     try {
-      const response = await fetch(
-        `${import.meta.env.VITE_API_URL || "http://localhost:5000"}/api/reviews`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
+      const API_BASE =
+        import.meta.env.VITE_API_BASE_URL || "http://localhost:5000/api";
+      console.log(`📤 [Reviews] Submitting review to: ${API_BASE}/reviews`);
+      const response = await fetch(`${API_BASE}/reviews`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
         },
-      );
+        body: JSON.stringify(formData),
+      });
 
       if (response.ok) {
         const result = await response.json();
