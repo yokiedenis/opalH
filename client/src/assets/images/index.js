@@ -39,7 +39,7 @@ import juice from "./juice.png";
 // ========================================
 // DESSERTS
 // ========================================
-import chocolateCake from "./fruits2.jpg";
+import chocolateCake from "./fruits.jpg";
 import cake from "./fruits2.jpg";
 
 // ========================================
@@ -49,7 +49,7 @@ import posho from "./mulo.jfif";
 import rolex from "./wakeupandgorolex.jpg";
 import samosa from "./pizza.png";
 import steak from "./matookeBeef.jpg";
-import matoke from "./mulo.jfif";
+import matoke from "./matookekatogo.jpg";
 
 // ========================================
 // HOTEL & PROMO VIDEOS
