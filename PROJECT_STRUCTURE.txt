@@ -1,0 +1,353 @@
+PROJECT STRUCTURE - Opal Heights Hotel
+=====================================
+
+opalh/
+│
+├── 📄 README.md (Comprehensive documentation)
+├── 📄 QUICKSTART.md (5-minute setup guide)
+├── 📄 IMPLEMENTATION_GUIDE.md (Detailed development guide)
+├── 📄 .gitignore
+│
+├── 🖥️ SERVER (Backend - Node.js/Express)
+│   │
+│   ├── 📁 models/ (Database Schemas)
+│   │   ├── Room.js (Hotel rooms)
+│   │   ├── Booking.js (Room reservations)
+│   │   ├── FoodItem.js (Menu items)
+│   │   ├── FoodOrder.js (Food orders)
+│   │   ├── Review.js (Customer reviews)
+│   │   └── User.js (Users/admin)
+│   │
+│   ├── 📁 routes/ (API Endpoints)
+│   │   ├── roomRoutes.js (GET, POST, PATCH, DELETE rooms)
+│   │   ├── bookingRoutes.js (Create & manage bookings)
+│   │   ├── foodRoutes.js (Food menu management)
+│   │   ├── orderRoutes.js (Food order management)
+│   │   ├── reviewRoutes.js (Review management)
+│   │   ├── paymentRoutes.js (MoMo Pay integration)
+│   │   ├── userRoutes.js (User management)
+│   │   └── adminRoutes.js (Admin dashboard)
+│   │
+│   ├── 📁 controllers/ (Business logic - TODO)
+│   ├── 📁 middleware/ (Auth, error handling - TODO)
+│   ├── 📁 config/ (Configuration files - TODO)
+│   │
+│   ├── 📄 server.js (Express app entry point)
+│   ├── 📄 package.json (Dependencies)
+│   └── 📄 .env.example (Environment variables template)
+│
+└── ⚛️ CLIENT (Frontend - React)
+    │
+    ├── 📁 public/
+    │   └── index.html (HTML template)
+    │
+    └── 📁 src/
+        │
+        ├── 📁 components/ (Reusable UI Components)
+        │   ├── Header.js & Header.css (Navigation bar)
+        │   ├── Hero.js & Hero.css (Landing banner)
+        │   ├── RoomShowcase.js & RoomShowcase.css (Room display)
+        │   ├── FoodMenu.js & FoodMenu.css (Food/Pizza menu)
+        │   ├── Gallery.js & Gallery.css (Photo/video gallery)
+        │   ├── Reviews.js & Reviews.css (Testimonials)
+        │   ├── Contact.js & Contact.css (Contact form)
+        │   └── Footer.js & Footer.css (Footer)
+        │
+        ├── 📁 pages/ (Full Page Components)
+        │   ├── Home.js (Homepage - combines all sections)
+        │   ├── Booking.js (TODO - Booking page)
+        │   ├── Cart.js (TODO - Shopping cart)
+        │   ├── AdminDashboard.js (TODO - Admin panel)
+        │   └── Contact.js (TODO - Contact page)
+        │
+        ├── 📁 context/ (React Context)
+        │   └── BookingContext.js (Global state management)
+        │
+        ├── 📁 assets/
+        │   ├── images/ (Hotel photos)
+        │   ├── videos/ (Hotel videos)
+        │   └── fonts/ (Custom fonts)
+        │
+        ├── 📁 styles/ (Global Styles)
+        │   └── globals.css (Gold/black luxury theme)
+        │
+        ├── 📄 App.js (Main router component)
+        ├── 📄 index.js (React entry point)
+        ├── 📄 package.json (Frontend dependencies)
+        └── 📄 .gitignore
+        
+        
+KEY FEATURES BY SECTION
+======================
+
+🏠 HEADER
+- Sticky navigation
+- Logo with branding
+- Mobile hamburger menu
+- Shopping cart badge
+- Admin login link
+
+🎯 HERO SECTION
+- Full-width banner
+- Hotel name & location
+- Call-to-action buttons
+- Statistics display
+- Smooth animations
+
+🛏️ ROOM SHOWCASE
+- Room type display
+- Pricing (60K-100K)
+- Amenities listing
+- Booking buttons
+- Responsive grid
+
+🍕 FOOD MENU
+- Category filtering
+- Food item cards
+- Price display
+- Add to cart
+- Star ratings
+
+📸 GALLERY
+- Image filtering
+- Video support
+- Lightbox modal
+- Responsive layout
+- Multiple categories
+
+⭐ REVIEWS
+- Customer testimonials
+- 5-star ratings
+- Multiple review types
+- Guest names & dates
+- Approval system
+
+📞 CONTACT
+- Contact form
+- Hotel information
+- Location details
+- Operating hours
+- Map integration
+
+🔗 FOOTER
+- Social media links
+- Quick navigation
+- Contact info
+- Services listing
+- Copyright info
+
+
+TECHNOLOGY STACK
+================
+
+Frontend:
+├── React 18 (UI framework)
+├── React Router v6 (Navigation)
+├── Axios (HTTP client)
+├── React Icons (Icon library)
+├── React DatePicker (Date selection)
+├── CSS3 (Styling with variables)
+└── Responsive Design (Mobile-first)
+
+Backend:
+├── Node.js (Runtime)
+├── Express.js (Web framework)
+├── MongoDB (Database)
+├── Mongoose (ODM)
+├── Nodemailer (Email)
+├── Multer (File uploads)
+├── CORS (Cross-origin requests)
+└── dotenv (Environment variables)
+
+Integrations:
+├── MoMo Pay (Mobile money)
+├── Twilio (WhatsApp notifications)
+├── Gmail (Email confirmations)
+├── TikTok (Video embeds)
+└── Google Maps (Location)
+
+
+COLOR SCHEME (Gold/Black Luxury)
+================================
+
+Primary Colors:
+├── Gold: #d4af37
+├── Dark Gold: #b8941e
+├── Dark Background: #1a1a1a
+├── Light Background: #f5f5f5
+└── Accent Black: #000000
+
+Status Colors:
+├── Success: #27ae60 (Green)
+├── Danger: #e74c3c (Red)
+├── Warning: #f39c12 (Orange)
+└── Info: #3498db (Blue)
+
+
+RESPONSIVE BREAKPOINTS
+======================
+
+Desktop: 1200px+
+├── Full navigation
+├── Multi-column grids
+└── All features visible
+
+Tablet: 768px - 1199px
+├── Adjusted spacing
+├── 2-column layouts
+└── Hamburger menu appears
+
+Mobile: < 768px
+├── Single column layouts
+├── Full-screen menu
+├── Touch-friendly buttons
+└── Optimized images
+
+
+ROOM PRICING
+============
+
+Single Room:      60,000 UGX/night
+Double Room:      80,000 UGX/night
+Breakfast Package: 100,000 UGX/night
+(+ optional services)
+
+
+ADMIN FEATURES (TODO)
+====================
+
+Dashboard:
+├── Booking statistics
+├── Revenue tracking
+├── Order management
+└── Review approvals
+
+Management:
+├── Add/edit rooms
+├── Update availability
+├── Manage food menu
+├── Update pricing
+└── View analytics
+
+
+NEXT IMPLEMENTATION STEPS
+=========================
+
+Week 1:
+1. Add real hotel images
+2. Setup MongoDB connection
+3. Create Booking page
+4. Test API endpoints
+
+Week 2:
+1. Email notifications
+2. Food order cart
+3. Payment system
+4. Admin login
+
+Week 3:
+1. WhatsApp notifications
+2. Admin dashboard
+3. Review system
+4. Performance optimization
+
+Week 4:
+1. Testing & debugging
+2. Security audit
+3. Documentation
+4. Deployment
+
+
+FILES TO CREATE NEXT
+====================
+
+Frontend Pages:
+├── pages/Booking.js (Booking form)
+├── pages/Cart.js (Shopping cart)
+├── pages/AdminDashboard.js (Admin panel)
+├── pages/ReviewForm.js (Review submission)
+└── pages/PaymentPage.js (Payment processing)
+
+Backend:
+├── controllers/ (Business logic)
+├── middleware/ (Auth & validation)
+├── utils/ (Helper functions)
+└── services/ (External services)
+
+Utilities:
+├── utils/api.js (API configuration)
+├── utils/validation.js (Input validation)
+├── utils/formatters.js (Data formatting)
+└── utils/constants.js (App constants)
+
+
+DEVELOPER NOTES
+===============
+
+✅ Completed:
+- Project structure
+- Database models
+- Component architecture
+- Global styling
+- API route skeleton
+- Documentation
+
+🔄 In Progress:
+- Component refinement
+- API implementation
+- Integration setup
+
+⏳ TODO:
+- Authentication system
+- Payment processing
+- Notification system
+- Admin dashboard
+- Testing suite
+- Deployment setup
+
+📊 Estimated Timeline:
+- Development: 4-6 weeks
+- Testing: 1-2 weeks
+- Deployment: 1 week
+- Total: 6-9 weeks to launch
+
+
+USEFUL COMMANDS
+===============
+
+# Backend
+cd server
+npm install
+npm run dev
+
+# Frontend
+cd client
+npm install
+npm start
+
+# Build for production
+npm run build
+
+# Database backup
+mongodump --db opal-heights-hotel
+
+# Environment check
+echo %MONGODB_URI%
+
+
+CONTACT INFORMATION
+===================
+
+Hotel Name:    Opal Heights Hotel
+Location:      Kabulengwa Road, Yesu Amala
+Phone:         +256 700 000 000
+Email:         info@opalhighshotel.com
+Social Media:  @opalhighshotel
+Website:       opalhighshotel.com (to be deployed)
+
+
+═══════════════════════════════════════════════════════════
+
+Happy Development! 🎉
+Built with ❤️ for Opal Heights Hotel
+© 2026 - All Rights Reserved
