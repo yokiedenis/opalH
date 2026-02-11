@@ -96,7 +96,11 @@ const RoomShowcase = () => {
     if (!imagePath) return null;
     // Extract filename from path (e.g., "bed1.png" or "/src/assets/images/bed1.png")
     const filename = imagePath.split("/").pop();
-    return IMAGE_MAP[filename] || imagePath;
+    const resolvedImage = IMAGE_MAP[filename];
+    console.log(
+      `🖼️ [RoomShowcase] Resolving image: ${imagePath} → ${filename} → ${resolvedImage ? "✅ Found in IMAGE_MAP" : "❌ Not found"}`,
+    );
+    return resolvedImage || imagePath;
   };
 
   // Filter rooms by type
@@ -246,6 +250,9 @@ const RoomCard = ({ room, getImagePath }) => {
       <div className="room-image">
         {room.images && room.images[0] ? (
           <>
+            {console.log(
+              `🏨 [RoomCard] Rendering image for room: ${room.roomNumber}, image path: ${room.images[0]}`,
+            )}
             <img src={getImagePath(room.images[0])} alt={room.type} />
             <div className="image-overlay"></div>
           </>
