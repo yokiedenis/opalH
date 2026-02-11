@@ -147,6 +147,7 @@ export {
   cake,
   tilapia,
   vegetablePizza,
+  lusaniya,
 };
 
 // All food images by category

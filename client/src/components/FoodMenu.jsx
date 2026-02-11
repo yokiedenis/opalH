@@ -18,6 +18,8 @@ const IMAGE_MAP = {
   "grilledduarterchicken.jpg": FoodImages.samosa,
   "pizza2.jpg": FoodImages.vegetablePizza,
   "matookeBeef.jpg": FoodImages.steak,
+  "matookBeef.jpg": FoodImages.steak,
+  "wholeChicken.jpg": FoodImages.lusaniya,
   "fruits2.jpg": FoodImages.cake,
 };
 
