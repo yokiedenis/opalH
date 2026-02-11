@@ -132,7 +132,19 @@ export const dessertImages = {
 };
 
 // Additional Exports
-export { posho, rolex, samosa, steak, matoke, pizza, vegpizza, juice, cake };
+export {
+  posho,
+  rolex,
+  samosa,
+  steak,
+  matoke,
+  pizza,
+  vegpizza,
+  juice,
+  cake,
+  tilapia,
+  vegetablePizza,
+};
 
 // All food images by category
 export const foodImages = {

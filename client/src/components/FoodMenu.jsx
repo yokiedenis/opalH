@@ -10,14 +10,14 @@ const API_BASE =
 // Map image filenames to imports
 const IMAGE_MAP = {
   "fish.jpg": FoodImages.tilapia,
-  "grilledduarterchicken.jpg": FoodImages.posho,
+  "mulo.jfif": FoodImages.posho,
   "wakeupandgorolex.jpg": FoodImages.rolex,
   "pizza.png": FoodImages.pizza,
   "matookekatogo.jpg": FoodImages.matoke,
   "juice.png": FoodImages.juice,
   "grilledduarterchicken.jpg": FoodImages.samosa,
-  "pizza.jpg": FoodImages.vegetablePizza,
-  "matookBeef.jpg": FoodImages.steak,
+  "pizza2.jpg": FoodImages.vegetablePizza,
+  "matookeBeef.jpg": FoodImages.steak,
   "fruits2.jpg": FoodImages.cake,
 };
 
