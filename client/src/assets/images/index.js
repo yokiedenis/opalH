@@ -57,29 +57,29 @@ import matoke from "./matookekatogo.jpg";
 const videos = {
   // Breakfast & Food Preparation
   breakfast: {
-    bigBreakfast: "/src/assets/videos/bigbreakfast.mp4",
-    bigBreakfastServing: "/src/assets/videos/bigbreakfastserving.mp4",
-    breakfastPrep: "/src/assets/videos/breakfast prep.mp4",
-    breakfastPrep2: "/src/assets/videos/breakfastprep2.mp4",
-    breakfastPrep3: "/src/assets/videos/breakfastprep3.mp4",
+    bigBreakfast: "bigbreakfast.mp4",
+    bigBreakfastServing: "bigbreakfastserving.mp4",
+    breakfastPrep: "breakfast prep.mp4",
+    breakfastPrep2: "breakfastprep2.mp4",
+    breakfastPrep3: "breakfastprep3.mp4",
   },
   // Meal Preparation & Serving
   meals: {
-    chapatiBeef: "/src/assets/videos/chapatibeef.mp4",
-    chipsBeef: "/src/assets/videos/chipsbeef.mp4",
-    poshoBeef: "/src/assets/videos/poshobeef.mp4",
+    chapatiBeef: "chapatibeef.mp4",
+    chipsBeef: "chipsbeef.mp4",
+    poshoBeef: "poshobeef.mp4",
   },
   // Restaurant & Service
   restaurant: {
-    pizzaPackaging: "/src/assets/videos/pizzapackaging.mp4",
-    waiterServingTea: "/src/assets/videos/waiterservingtea.mp4",
-    afterMeal: "/src/assets/videos/aftermeal.mp4",
+    pizzaPackaging: "pizzapackaging.mp4",
+    waiterServingTea: "waiterservingtea.mp4",
+    afterMeal: "aftermeal.mp4",
   },
   // Staff & Customer Experience
   testimonials: {
-    cuteWaiter: "/src/assets/videos/cutewaiter.mp4",
-    cuteWaiterServingLunch: "/src/assets/videos/cutewaiterservinglunch.mp4",
-    satisfiedCustomer: "/src/assets/videos/satifiedcustomer.mp4",
+    cuteWaiter: "cutewaiter.mp4",
+    cuteWaiterServingLunch: "cutewaiterservinglunch.mp4",
+    satisfiedCustomer: "satifiedcustomer.mp4",
   },
 };
 

@@ -42,7 +42,12 @@ const Hero = () => {
         </div>
 
         <div className="hero-image">
-          <img src={heroImg} alt="Opal Heights Hotel" className="hero-img" />
+          <img
+            src={heroImg}
+            alt="Opal Heights Hotel"
+            className="hero-img"
+            loading="lazy"
+          />
         </div>
       </div>
 

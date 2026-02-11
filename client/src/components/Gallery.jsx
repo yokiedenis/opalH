@@ -16,6 +16,16 @@ import beef from "@assets/images/beefRolex.png";
 // Import videos from assets
 import { allVideos } from "@assets/images";
 
+// Function to resolve video URL
+const getVideoUrl = (videoFilename) => {
+  if (!videoFilename) return null;
+  // If it's just a filename, construct the URL for the dist folder
+  if (!videoFilename.includes("/")) {
+    return new URL(`../assets/videos/${videoFilename}`, import.meta.url).href;
+  }
+  return videoFilename;
+};
+
 const Gallery = () => {
   const [activeFilter, setActiveFilter] = useState("all");
   const [selectedImage, setSelectedImage] = useState(null);
@@ -255,6 +265,7 @@ const Gallery = () => {
                 <img
                   src={item.type === "video" ? item.thumbnail : item.image}
                   alt={item.title}
+                  loading="lazy"
                 />
                 {item.type === "video" && (
                   <div className="play-button">
@@ -282,7 +293,7 @@ const Gallery = () => {
               <div className="lightbox-image">
                 {selectedImage.type === "video" ? (
                   <video
-                    src={selectedImage.video}
+                    src={getVideoUrl(selectedImage.video)}
                     controls
                     autoPlay
                     style={{
@@ -292,7 +303,11 @@ const Gallery = () => {
                     }}
                   />
                 ) : (
-                  <img src={selectedImage.image} alt={selectedImage.title} />
+                  <img
+                    src={selectedImage.image}
+                    alt={selectedImage.title}
+                    loading="lazy"
+                  />
                 )}
               </div>
               <p className="lightbox-title">{selectedImage.title}</p>

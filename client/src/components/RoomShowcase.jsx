@@ -253,7 +253,11 @@ const RoomCard = ({ room, getImagePath }) => {
             {console.log(
               `🏨 [RoomCard] Rendering image for room: ${room.roomNumber}, image path: ${room.images[0]}`,
             )}
-            <img src={getImagePath(room.images[0])} alt={room.type} />
+            <img
+              src={getImagePath(room.images[0])}
+              alt={room.type}
+              loading="lazy"
+            />
             <div className="image-overlay"></div>
           </>
         ) : (

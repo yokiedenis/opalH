@@ -35,7 +35,12 @@ const Header = () => {
     <header className="header">
       <div className="container header-content">
         <Link to="/" className="logo">
-          <img src={logoImg} alt="Opal Heights Hotel" className="logo-img" />
+          <img
+            src={logoImg}
+            alt="Opal Heights Hotel"
+            className="logo-img"
+            loading="lazy"
+          />
         </Link>
 
         {/* Mobile Overlay */}

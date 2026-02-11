@@ -145,7 +145,11 @@ const FoodMenu = () => {
               <div key={item._id || item.id} className="food-card">
                 <div className="food-image">
                   {item.image ? (
-                    <img src={getImagePath(item.image)} alt={item.name} />
+                    <img
+                      src={getImagePath(item.image)}
+                      alt={item.name}
+                      loading="lazy"
+                    />
                   ) : (
                     <div className="placeholder">{item.name}</div>
                   )}
