@@ -27,16 +27,29 @@ import lusaniya from "./wholeChicken.jpg";
 // ========================================
 import chickenPizza from "./pizza2.jpg";
 import vegetablePizza from "./pizza.png";
+import pizza from "./pizza.png";
+import vegpizza from "./pizza.png";
 
 // ========================================
 // DRINKS
 // ========================================
 import freshJuice from "./juice.png";
+import juice from "./juice.png";
 
 // ========================================
 // DESSERTS
 // ========================================
 import chocolateCake from "./fruits2.jpg";
+import cake from "./fruits2.jpg";
+
+// ========================================
+// ADDITIONAL FOOD ITEMS
+// ========================================
+import posho from "./mulo.jfif";
+import rolex from "./wakeupandgorolex.jpg";
+import samosa from "./pizza.png";
+import steak from "./matookeBeef.jpg";
+import matoke from "./mulo.jfif";
 
 // ========================================
 // HOTEL & PROMO VIDEOS
@@ -102,17 +115,24 @@ export const mealImages = {
 export const pizzaImages = {
   chickenPizza,
   vegetablePizza,
+  pizza,
+  vegpizza,
 };
 
 // Food Images - Drinks
 export const drinkImages = {
   freshJuice,
+  juice,
 };
 
 // Food Images - Desserts
 export const dessertImages = {
   chocolateCake,
+  cake,
 };
+
+// Additional Exports
+export { posho, rolex, samosa, steak, matoke, pizza, vegpizza, juice, cake };
 
 // All food images by category
 export const foodImages = {
