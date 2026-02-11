@@ -18,11 +18,11 @@ const API_BASE = import.meta.env.VITE_API_BASE_URL;
 
 // Map room image filenames to imports
 const IMAGE_MAP = {
-  "bed1.png": RoomImages.singleRoom,
-  "bed2.png": RoomImages.doubleRoom,
-  "conferenceHall.png": RoomImages.conferenceHall,
-  "pooltable.png": RoomImages.rooftopGarden,
-  "dinnerParty.png": RoomImages.restaurant,
+  "bed1.png": RoomImages.roomImages.singleRoom,
+  "bed2.png": RoomImages.roomImages.doubleRoom,
+  "conferenceHall.png": RoomImages.roomImages.conferenceHall,
+  "pooltable.png": RoomImages.roomImages.rooftopGarden,
+  "dinnerParty.png": RoomImages.roomImages.restaurant,
 };
 
 const RoomShowcase = () => {

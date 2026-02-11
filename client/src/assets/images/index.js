@@ -131,7 +131,10 @@ export const dessertImages = {
   cake,
 };
 
-// Additional Exports
+// Additional Exports - Room Images
+export { singleRoom, doubleRoom, conferenceHall, rooftopGarden, restaurant };
+
+// Additional Exports - Food Images
 export {
   posho,
   rolex,
