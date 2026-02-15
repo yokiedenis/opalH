@@ -12,6 +12,14 @@ import restu from "@assets/images/restu.png";
 import pineamelon from "@assets/images/juice.png";
 import posho from "@assets/images/grilledduarterchicken.jpg";
 import beef from "@assets/images/beefRolex.png";
+import thumbone from "@assets/images/thumbnail1.png";
+import thumbtwo from "@assets/images/servingLunch.png";
+import thumbthree from "@assets/images/thumbthree.png";
+import mashedPotatoes from "@assets/images/mashed.png";
+import mchips from "@assets/images/chips.png";
+import thumbfour from "@assets/images/thumbfour.png";
+import wages from "@assets/images/wages.png";
+import mangoes from "@assets/images/thumbfive.png";
 
 // Import videos from assets
 import { allVideos } from "@assets/images";
@@ -100,53 +108,29 @@ const Gallery = () => {
     },
     // BREAKFAST VIDEOS
     {
-      id: 11,
-      category: "breakfast-videos",
-      type: "video",
-      title: "Big Breakfast",
-      video: allVideos.breakfast.bigBreakfast,
-      thumbnail: beef,
-    },
-    {
-      id: 12,
-      category: "breakfast-videos",
-      type: "video",
-      title: "Big Breakfast Serving",
-      video: allVideos.breakfast.bigBreakfastServing,
-      thumbnail: beef,
-    },
-    {
-      id: 13,
-      category: "breakfast-videos",
-      type: "video",
-      title: "Breakfast Prep",
-      video: allVideos.breakfast.breakfastPrep,
-      thumbnail: beef,
-    },
-    {
       id: 14,
       category: "breakfast-videos",
       type: "video",
-      title: "Breakfast Prep 2",
+      title: "Breakfast wages",
       video: allVideos.breakfast.breakfastPrep2,
-      thumbnail: beef,
+      thumbnail: wages,
     },
     {
       id: 15,
       category: "breakfast-videos",
       type: "video",
-      title: "Breakfast Prep 3",
+      title: "Fruits breakfast",
       video: allVideos.breakfast.breakfastPrep3,
-      thumbnail: beef,
+      thumbnail: mangoes,
     },
     // MEAL VIDEOS
     {
       id: 16,
       category: "meals-videos",
       type: "video",
-      title: "Chapati & Beef",
+      title: "Chapati & Veggies",
       video: allVideos.meals.chapatiBeef,
-      thumbnail: posho,
+      thumbnail: thumbfour,
     },
     {
       id: 17,
@@ -154,15 +138,15 @@ const Gallery = () => {
       type: "video",
       title: "Chips & Beef",
       video: allVideos.meals.chipsBeef,
-      thumbnail: posho,
+      thumbnail: mchips,
     },
     {
       id: 18,
       category: "meals-videos",
       type: "video",
-      title: "Posho & Beef",
+      title: "Mashed Potatoes & Beef",
       video: allVideos.meals.poshoBeef,
-      thumbnail: posho,
+      thumbnail: mashedPotatoes,
     },
     // RESTAURANT SERVICE VIDEOS
     {
@@ -171,7 +155,7 @@ const Gallery = () => {
       type: "video",
       title: "Pizza Packaging",
       video: allVideos.restaurant.pizzaPackaging,
-      thumbnail: pineamelon,
+      thumbnail: thumbthree,
     },
     {
       id: 20,
@@ -194,9 +178,9 @@ const Gallery = () => {
       id: 22,
       category: "testimonials",
       type: "video",
-      title: "Cute Waiter",
+      title: "Waiter",
       video: allVideos.testimonials.cuteWaiter,
-      // thumbnail: imgWA0006,
+      thumbnail: thumbone,
     },
     {
       id: 23,
@@ -204,7 +188,7 @@ const Gallery = () => {
       type: "video",
       title: "Waiter Serving Lunch",
       video: allVideos.testimonials.cuteWaiterServingLunch,
-      // thumbnail: imgWA0006,
+      thumbnail: thumbtwo,
     },
     {
       id: 24,
@@ -296,6 +280,8 @@ const Gallery = () => {
                     src={getVideoUrl(selectedImage.video)}
                     controls
                     autoPlay
+                    loop
+                    muted
                     style={{
                       width: "100%",
                       height: "auto",

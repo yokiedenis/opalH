@@ -12,6 +12,9 @@ import restaurant from "./dinnerParty.png";
 // ========================================
 import englishBreakfast from "./wakeupandgorolex.jpg";
 import wakeUpAndGo from "./matookekatogo.jpg";
+import chapatiVeggies from "./thumbfour.png";
+import wages from "./wages.png";
+import matookeBF from "./matookeBF.png";
 
 // ========================================
 // MEAL ITEMS
@@ -21,6 +24,8 @@ import mulokoni from "./mulo.jfif";
 import boiledChicken from "./grilledduarterchicken.jpg";
 import beefSteak from "./matookeBeef.jpg";
 import lusaniya from "./wholeChicken.jpg";
+import mashedPotatoes from "./mashed.png";
+import goatMeat from "./chips.png";
 
 // ========================================
 // PIZZA ITEMS
@@ -40,7 +45,8 @@ import juice from "./juice.png";
 // DESSERTS
 // ========================================
 import chocolateCake from "./fruits.jpg";
-import cake from "./fruits2.jpg";
+import cake from "./cake.jfif";
+import mangoes from "./thumbfive.png";
 
 // ========================================
 // ADDITIONAL FOOD ITEMS
@@ -100,6 +106,9 @@ export const roomImages = {
 export const breakfastImages = {
   englishBreakfast,
   wakeUpAndGo,
+  chapatiVeggies,
+  wages,
+  matookeBF,
 };
 
 // Food Images - Meals
@@ -109,6 +118,8 @@ export const mealImages = {
   boiledChicken,
   beefSteak,
   lusaniya,
+  mashedPotatoes,
+  goatMeat,
 };
 
 // Food Images - Pizza
@@ -129,6 +140,7 @@ export const drinkImages = {
 export const dessertImages = {
   chocolateCake,
   cake,
+  mangoes,
 };
 
 // Additional Exports - Room Images
@@ -148,6 +160,18 @@ export {
   tilapia,
   vegetablePizza,
   lusaniya,
+  mulokoni,
+  boiledChicken,
+  beefSteak,
+  chickenPizza,
+  englishBreakfast,
+  wakeUpAndGo,
+  mashedPotatoes,
+  goatMeat,
+  chapatiVeggies,
+  wages,
+  matookeBF,
+  mangoes,
 };
 
 // All food images by category

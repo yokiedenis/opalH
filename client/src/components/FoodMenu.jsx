@@ -10,17 +10,22 @@ const API_BASE =
 // Map image filenames to imports
 const IMAGE_MAP = {
   "fish.jpg": FoodImages.tilapia,
-  "mulo.jfif": FoodImages.posho,
-  "wakeupandgorolex.jpg": FoodImages.rolex,
-  "pizza.png": FoodImages.pizza,
-  "matookekatogo.jpg": FoodImages.matoke,
+  "mulo.jfif": FoodImages.mulokoni,
+  "wakeupandgorolex.jpg": FoodImages.englishBreakfast,
+  "matookekatogo.jpg": FoodImages.wakeUpAndGo,
+  "pizza.png": FoodImages.vegetablePizza,
+  "pizza2.jpg": FoodImages.chickenPizza,
   "juice.png": FoodImages.juice,
-  "grilledduarterchicken.jpg": FoodImages.samosa,
-  "pizza2.jpg": FoodImages.vegetablePizza,
-  "matookeBeef.jpg": FoodImages.steak,
-  "matookBeef.jpg": FoodImages.steak,
+  "grilledduarterchicken.jpg": FoodImages.boiledChicken,
+  "matookeBeef.jpg": FoodImages.beefSteak,
   "wholeChicken.jpg": FoodImages.lusaniya,
-  "fruits2.jpg": FoodImages.cake,
+  "cake.jfif": FoodImages.cake,
+  "mashed.png": FoodImages.mashedPotatoes,
+  "chips.png": FoodImages.goatMeat,
+  "thumbfour.png": FoodImages.chapatiVeggies,
+  "wages.png": FoodImages.wages,
+  "matookeBF.png": FoodImages.matookeBF,
+  "thumbfive.png": FoodImages.mangoes,
 };
 
 const FoodMenu = () => {
