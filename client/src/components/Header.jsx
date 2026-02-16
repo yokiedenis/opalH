@@ -4,6 +4,7 @@ import { FaBars, FaTimes, FaShoppingCart, FaUser } from "react-icons/fa";
 import { BookingContext } from "../context/BookingContext.jsx";
 import logoImg from "@assets/images/logo.jpg";
 import what from "@assets/images/what.png";
+import ChatBot from "./ChatBot.jsx";
 import "./Header.css";
 
 const Header = () => {
@@ -34,16 +35,17 @@ const Header = () => {
 
   return (
     <header className="header">
-    <Link to="/" className="logos">
-          <img
-            src={what}
-            alt="Opal Heights Hotel"
-            className="logo-img"
-            loading="lazy"
-          />
-        </Link>
+      <ChatBot />
+      <button
+        className="logos logo"
+        onClick={() => window.openChatWidget?.()}
+        title="Open Chat"
+        style={{ background: "none", border: "none", cursor: "pointer" }}
+      >
+        <img src={what} alt="Open Chat" className="logo-img" loading="lazy" />
+      </button>
       <div className="container header-content">
-        <Link to="/" className="logo">
+        <Link to="/" className="C">
           <img
             src={logoImg}
             alt="Opal Heights Hotel"

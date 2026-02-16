@@ -20,6 +20,9 @@ import mchips from "@assets/images/chips.png";
 import thumbfour from "@assets/images/thumbfour.png";
 import wages from "@assets/images/wages.png";
 import mangoes from "@assets/images/thumbfive.png";
+import thumbsix from "@assets/images/thumbsix.png";
+import thumbeight from "@assets/images/thumbeight.png";
+import thumbseven from "@assets/images/thumbseven.png";
 
 // Import videos from assets
 import { allVideos } from "@assets/images";
@@ -161,9 +164,9 @@ const Gallery = () => {
       id: 20,
       category: "service-videos",
       type: "video",
-      title: "Waiter Serving Tea",
+      title: "Waitress Serving Tea",
       video: allVideos.restaurant.waiterServingTea,
-      thumbnail: restu,
+      thumbnail: thumbseven,
     },
     {
       id: 21,
@@ -171,14 +174,14 @@ const Gallery = () => {
       type: "video",
       title: "After Meal Service",
       video: allVideos.restaurant.afterMeal,
-      thumbnail: restu,
+      thumbnail: thumbeight,
     },
     // TESTIMONIALS VIDEOS
     {
       id: 22,
       category: "testimonials",
       type: "video",
-      title: "Waiter",
+      title: "waitress serving breakfast",
       video: allVideos.testimonials.cuteWaiter,
       thumbnail: thumbone,
     },
@@ -186,7 +189,7 @@ const Gallery = () => {
       id: 23,
       category: "testimonials",
       type: "video",
-      title: "Waiter Serving Lunch",
+      title: "Waitress Serving Lunch",
       video: allVideos.testimonials.cuteWaiterServingLunch,
       thumbnail: thumbtwo,
     },
@@ -196,7 +199,7 @@ const Gallery = () => {
       type: "video",
       title: "Satisfied Customer",
       video: allVideos.testimonials.satisfiedCustomer,
-      // thumbnail: imgWA0006,
+      thumbnail: thumbsix,
     },
   ];
 

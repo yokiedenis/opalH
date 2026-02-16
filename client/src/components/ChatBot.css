@@ -1,0 +1,167 @@
+/* ========================================
+   TAWK.TO WIDGET STYLING - MODERN & CLEAN
+   Customizes the Tawk.to chat widget button and popup
+   ======================================== */
+
+/* ===== TAWK.TO WIDGET BUTTON (FAB) ===== */
+#tawk-button-iframe {
+  border-radius: 50% !important;
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.4) !important;
+  z-index: 9999 !important;
+}
+
+/* Hide default Tawk.to button and use custom styling */
+.tawk-widget-button {
+  background: linear-gradient(135deg, #d4af37 0%, #f0d86d 100%) !important;
+  border-radius: 50% !important;
+  width: 60px !important;
+  height: 60px !important;
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.4) !important;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+
+.tawk-widget-button:hover {
+  transform: scale(1.15) rotateZ(10deg) !important;
+  box-shadow: 0 8px 30px rgba(212, 175, 55, 0.6) !important;
+}
+
+.tawk-widget-button:active {
+  transform: scale(0.95) !important;
+}
+
+/* Pulsing animation for button */
+.tawk-widget-button {
+  animation: tawk-pulse 2s ease-in-out infinite;
+}
+
+@keyframes tawk-pulse {
+  0%, 100% {
+    box-shadow: 0 4px 20px rgba(212, 175, 55, 0.4) !important;
+  }
+  50% {
+    box-shadow: 0 4px 30px rgba(212, 175, 55, 0.8) !important;
+  }
+}
+
+/* ===== TAWK.TO CHAT POPUP WINDOW ===== */
+#tawk-iframe-container {
+  border-radius: 16px !important;
+  box-shadow: 0 10px 60px rgba(0, 0, 0, 0.3) !important;
+  bottom: 100px !important;
+  right: 30px !important;
+  width: 420px !important;
+  max-height: 600px !important;
+}
+
+.tawk-iframe {
+  border-radius: 16px !important;
+  background: #ffffff !important;
+}
+
+/* ===== TAWK.TO HEADER ===== */
+.tawk-chat-header {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%) !important;
+  color: #d4af37 !important;
+  border-bottom: 2px solid #d4af37 !important;
+}
+
+.tawk-header-title {
+  color: #d4af37 !important;
+  font-weight: 700 !important;
+}
+
+.tawk-header-subtitle {
+  color: #b8933f !important;
+  font-size: 12px !important;
+}
+
+/* ===== TAWK.TO MESSAGES ===== */
+.tawk-message-visitor {
+  background: linear-gradient(135deg, #d4af37 0%, #f0d86d 100%) !important;
+  color: #1a1a1a !important;
+  border-radius: 12px 4px 12px 12px !important;
+  box-shadow: 0 2px 8px rgba(212, 175, 55, 0.2) !important;
+}
+
+.tawk-message-agent {
+  background: #ffffff !important;
+  color: #2d2d2d !important;
+  border: 1px solid #e0e0e0 !important;
+  border-left: 3px solid #d4af37 !important;
+  border-radius: 4px 12px 12px 12px !important;
+}
+
+.tawk-message-system {
+  background: #f5f5f5 !important;
+  color: #666 !important;
+  border-radius: 12px !important;
+  border-left: 3px solid #d4af37 !important;
+}
+
+/* ===== TAWK.TO INPUT AREA ===== */
+.tawk-input-area {
+  background: #ffffff !important;
+  border-top: 1px solid #e0e0e0 !important;
+  padding: 16px !important;
+}
+
+.tawk-input {
+  background: #f5f5f5 !important;
+  border: 1px solid #d0d0d0 !important;
+  color: #1a1a1a !important;
+  border-radius: 8px !important;
+  padding: 10px 14px !important;
+  font-size: 14px !important;
+}
+
+.tawk-input:focus {
+  border-color: #d4af37 !important;
+  background: #ffffff !important;
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1) !important;
+  outline: none !important;
+}
+
+/* ===== TAWK.TO SEND BUTTON ===== */
+.tawk-send-btn {
+  background: linear-gradient(135deg, #d4af37 0%, #f0d86d 100%) !important;
+  color: #1a1a1a !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 10px 14px !important;
+  font-weight: 600 !important;
+  transition: all 0.2s ease !important;
+  cursor: pointer !important;
+}
+
+.tawk-send-btn:hover:not(:disabled) {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3) !important;
+}
+
+.tawk-send-btn:active:not(:disabled) {
+  transform: translateY(0) !important;
+}
+
+.tawk-send-btn:disabled {
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+}
+
+
+/* ===== RESPONSIVE DESIGN FOR MOBILE ===== */
+@media (max-width: 480px) {
+  #tawk-iframe-container {
+    width: calc(100vw - 40px) !important;
+    max-height: 70vh !important;
+    bottom: 90px !important;
+    right: 20px !important;
+    border-radius: 12px 12px 0 0 !important;
+  }
+
+  .tawk-widget-button {
+    width: 56px !important;
+    height: 56px !important;
+    font-size: 24px !important;
+  }
+}
+

@@ -5,13 +5,18 @@ import {
   FaFacebook,
   FaInstagram,
   FaTwitter,
-  FaWhatsapp,
   FaComments,
 } from "react-icons/fa";
 import heroImg from "@assets/images/bannerImage.png";
 import "./Hero.css";
 
 const Hero = () => {
+  const scrollToFood = () => {
+    const foodSection = document.getElementById("food");
+    if (foodSection) {
+      foodSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <section className="hero">
       <div className="hero-overlay"></div>
@@ -24,9 +29,9 @@ const Hero = () => {
             <Link to="/booking" className="btn btn-primary">
               Book Your Room
             </Link>
-            <Link to="/#food-menu" className="btn btn-outline">
+            <a href="#food" className="btn btn-outline">
               Order Food
-            </Link>
+            </a>
           </div>
 
           <div className="hero-stats">
@@ -70,7 +75,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="scroll-indicator">
+      <div className="scroll-indicator" onClick={scrollToFood} title="Scroll down to explore">
         <FaChevronDown />
       </div>
     </section>
