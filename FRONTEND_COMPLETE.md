@@ -34,7 +34,7 @@ client/
 │   │   └── BookingContext.js - Global cart & booking state
 │   │
 │   ├── styles/               ✅ Styling
-│   │   ├── globals.css       - Luxury gold/black theme
+│   │   ├── globals.css       -   gold/black theme
 │   │   ├── BookingPage.css   - Booking form styling
 │   │   ├── CartPage.css      - Shopping cart styling
 │   │   └── AdminPage.css     - Admin dashboard styling
@@ -147,7 +147,7 @@ const { cartItems, addToCart, removeFromCart, clearCart } =
 
 - Mobile-first approach
 - Breakpoints: 480px, 768px, 1024px+
-- Luxury gold/black theme consistent across all pages
+- gold/black theme consistent across all pages
 
 ### ✨ Form Validation
 
@@ -291,7 +291,7 @@ npm run dev
 - ✅ Cart management with quantities
 - ✅ Admin dashboard with CSV export
 - ✅ Responsive design (mobile-friendly)
-- ✅ Luxury gold/black theme
+- ✅ gold/black theme
 - ✅ Context API for state management
 - ✅ Navigation between pages
 - ✅ Vite setup with HMR (Hot Module Replacement)

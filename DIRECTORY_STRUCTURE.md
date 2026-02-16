@@ -32,7 +32,7 @@ c:\Users\yokas\Desktop\yokie\opalh\
 │   │   │   └── BookingContext.js      # Global booking state
 │   │   │
 │   │   ├── 📁 styles/                 # Global styles
-│   │   │   └── globals.css            # Luxury theme (gold/black)
+│   │   │   └── globals.css            #   theme (gold/black)
 │   │   │
 │   │   ├── App.jsx                    # Main app component
 │   │   ├── main.jsx                   # ⭐ Vite entry point (replaces index.js)
@@ -117,7 +117,7 @@ c:\Users\yokas\Desktop\yokie\opalh\
     ├── Backend Entry: server/server.js (Express app)
     ├── Frontend Config: client/vite.config.js (Vite build config)
     ├── Backend Config: server/.env (environment variables)
-    ├── Frontend Styles: client/src/styles/globals.css (luxury theme)
+    ├── Frontend Styles: client/src/styles/globals.css (  theme)
     └── Database Models: server/models/ (6 MongoDB schemas)
 ```
 
@@ -150,7 +150,7 @@ c:\Users\yokas\Desktop\yokie\opalh\
 | `client/.env.example`             | API URL template              | ✅ Created  |
 | `client/package.json`             | ⭐ **Vite dependencies**      | ✅ Updated  |
 | `client/public/index.html`        | ⭐ **Module script for Vite** | ✅ Updated  |
-| `client/src/styles/globals.css`   | Luxury theme & responsive     | ✅ Complete |
+| `client/src/styles/globals.css`   | theme & responsive            | ✅ Complete |
 | `client/src/components/Header.js` | Navigation component          | ✅ Complete |
 
 ### Backend (Server)
@@ -203,7 +203,7 @@ client/src/
 │   ├── Hero.js & Hero.css
 │   ├── ... (6 more)
 ├── styles/
-│   └── globals.css        ← Luxury theme
+│   └── globals.css        ←   theme
 ├── pages/
 │   └── Home.js
 ├── context/
@@ -316,7 +316,7 @@ client/src/App.jsx (main app)
 ↓
 client/src/components/ (8 components)
 ↓
-client/src/styles/globals.css (luxury theme)
+client/src/styles/globals.css (  theme)
 ↓
 API calls to server:5000
 ↓

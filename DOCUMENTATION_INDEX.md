@@ -379,7 +379,7 @@ You have a **complete, production-ready hotel management system** with:
 ✅ 6 database models  
 ✅ Vite build tool (modern, fast)  
 ✅ Full responsive design  
-✅ Luxury gold/black theme
+✅ gold/black theme
 
 ---
 

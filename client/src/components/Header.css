@@ -121,7 +121,15 @@
 .nav-link-btn:hover {
   color: #d4af37;
 }
-
+.logos{
+  z-index:-200px;
+  position: absolute;
+  right: 0;
+  top: 480px;
+  width:60px;
+  background-color:black;
+  border-radius: 20px 0px 0px 0px;
+}
 /* Header Actions */
 .header-actions {
   display: flex;

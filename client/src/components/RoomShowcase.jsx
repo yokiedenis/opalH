@@ -125,8 +125,8 @@ const RoomShowcase = () => {
             Exceptional Rooms & Premium Facilities
           </h2>
           <p className="showcase-subtitle">
-            Experience luxury hospitality with our carefully curated selection
-            of rooms and facilities, each designed to exceed your expectations
+            Experience hospitality with our carefully curated selection of rooms
+            and facilities, each designed to exceed your expectations
           </p>
         </div>
 
@@ -141,7 +141,7 @@ const RoomShowcase = () => {
         {loading ? (
           <div className="loading-container">
             <div className="loading-spinner"></div>
-            <p>Loading luxury rooms...</p>
+            <p>Loading rooms...</p>
           </div>
         ) : (
           <>
@@ -195,7 +195,7 @@ const RoomShowcase = () => {
         {/* CTA Section */}
         <div className="rooms-cta-section">
           <div className="cta-content">
-            <h3>Ready to Experience Luxury?</h3>
+            <h3>Ready to Experience ?</h3>
             <p>Book your stay today and enjoy world-class hospitality</p>
             <Link to="/booking" className="btn btn-primary btn-lg">
               Book Your Room Now

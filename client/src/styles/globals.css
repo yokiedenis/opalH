@@ -1,4 +1,4 @@
-/* Global Styles - Luxury Gold/Black Theme */
+/* Global Styles -   Gold/Black Theme */
 
 * {
   margin: 0;
@@ -33,7 +33,7 @@ body {
   line-height: 1.6;
 }
 
-/* Luxury Typography */
+/*   Typography */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   color: var(--accent-black);

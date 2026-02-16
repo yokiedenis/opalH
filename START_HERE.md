@@ -18,7 +18,7 @@
 
 ✅ BEAUTIFUL RESPONSIVE WEBSITE
 
-- Luxury gold/black design theme
+- gold/black design theme
 - Mobile-first responsive layout
 - 8 fully styled React components
 - Professional animations & transitions
@@ -136,7 +136,7 @@ http://localhost:3000
 # 🎨 WHAT YOU'LL SEE
 
 Your homepage displays:
-✓ Beautiful gold/black luxury header
+✓ Beautiful gold/black header
 ✓ Eye-catching hero banner with booking CTA
 ✓ 12 room showcase with pricing (60K-100K)
 ✓ Food & pizza menu with categories
@@ -305,7 +305,7 @@ By completing this project:
 
 ✅ Beautiful Design
 
-- Luxury gold/black theme
+- gold/black theme
 - Professional appearance
 - Eye-catching layouts
 - Smooth animations

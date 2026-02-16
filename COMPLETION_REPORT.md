@@ -29,7 +29,7 @@ scratch with full documentation. All you need to do is:
 ✅ 2. STUNNING FRONTEND (React)
 
 - 8 fully styled React components with CSS
-- Luxury gold/black professional theme
+- gold/black professional theme
 - Fully responsive design (mobile, tablet, desktop)
 - Beautiful animations and transitions
 - Mobile hamburger menu
@@ -155,7 +155,7 @@ Ready for Integration:
 
 # DESIGN SPECIFICATIONS
 
-Theme: Luxury Gold/Black
+Theme: Gold/Black
 
 - Primary Gold: #d4af37
 - Dark Background: #1a1a1a

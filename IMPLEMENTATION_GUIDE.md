@@ -6,7 +6,7 @@ You now have a **fully scaffolded MERN stack hotel management system** with:
 
 ✅ Complete folder structure
 ✅ All database models
-✅ Frontend components with luxury gold/black design
+✅ Frontend components with gold/black design
 ✅ API route skeleton
 ✅ Global styling with responsive design
 ✅ Contact form component

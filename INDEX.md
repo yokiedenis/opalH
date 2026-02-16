@@ -257,7 +257,7 @@ npm start
 
 ## 🎨 DESIGN
 
-- **Theme:** Luxury Gold/Black
+- **Theme:** Gold/Black
 - **Primary Color:** #d4af37 (Gold)
 - **Responsive:** Mobile, Tablet, Desktop
 - **Accessibility:** WCAG ready

@@ -69,7 +69,7 @@ opalh/
         │   └── fonts/ (Custom fonts)
         │
         ├── 📁 styles/ (Global Styles)
-        │   └── globals.css (Gold/black luxury theme)
+        │   └── globals.css (Gold/black   theme)
         │
         ├── 📄 App.js (Main router component)
         ├── 📄 index.js (React entry point)
@@ -167,7 +167,7 @@ Integrations:
 └── Google Maps (Location)
 
 
-COLOR SCHEME (Gold/Black Luxury)
+COLOR SCHEME (Gold/Black  )
 ================================
 
 Primary Colors:

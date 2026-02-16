@@ -167,7 +167,7 @@ Should return:
 
 1. **Navigation** - Click Header menu items (should navigate)
 2. **Responsive Design** - Open DevTools (F12) and toggle mobile view
-3. **Room Showcase** - Scroll to see room cards with luxury gold/black theme
+3. **Room Showcase** - Scroll to see room cards with gold/black theme
 4. **Food Menu** - Browse food items with prices
 5. **Gallery** - Click images to see lightbox viewer
 6. **Reviews** - View customer testimonials
@@ -201,7 +201,7 @@ opalh/
 │   ├── src/
 │   │   ├── components/ # 8 ready-to-use React components
 │   │   ├── pages/      # Page components
-│   │   ├── styles/     # Global CSS with luxury theme
+│   │   ├── styles/     # Global CSS with   theme
 │   │   ├── App.jsx     # Main app component
 │   │   └── main.jsx    # Vite entry point
 │   ├── .env            # Your Vite variables
@@ -216,8 +216,8 @@ opalh/
 
 ✅ **Database Models** - 6 schemas for rooms, bookings, food, orders, reviews, users  
 ✅ **API Routes** - 8 route files with skeleton endpoints  
-✅ **React Components** - 8 fully styled luxury hotel website components  
-✅ **Global Styling** - Luxury gold/black theme with responsive design  
+✅ **React Components** - 8 fully styled hotel website components  
+✅ **Global Styling** - gold/black theme with responsive design  
 ✅ **Vite Configuration** - Modern build tool setup with API proxy  
 ✅ **Documentation** - 11+ guides and setup instructions
 
@@ -356,7 +356,7 @@ After getting everything running:
 - [ ] MongoDB running or Atlas connection configured
 - [ ] Backend server running on http://localhost:5000
 - [ ] Frontend dev server running on http://localhost:3000
-- [ ] Website loads with gold/black luxury theme
+- [ ] Website loads with gold/black theme
 - [ ] Navigation menu works
 - [ ] Components render correctly
 - [ ] No console errors

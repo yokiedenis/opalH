@@ -116,7 +116,7 @@ Pages (1 main, others TODO):
 └─ src/pages/AdminDashboard.js (TODO: Admin panel)
 
 Styling & Context (2):
-├─ src/styles/globals.css (Gold/black luxury theme)
+├─ src/styles/globals.css (Gold/black theme)
 └─ src/context/BookingContext.js (State management)
 
 Entry Points (2):
@@ -186,7 +186,7 @@ Features Implemented: 12+ major features
 - Desktop: 1200px+
 - All components tested
 
-✅ Luxury Gold/Black Theme
+✅ Gold/Black Theme
 
 - Color variables defined
 - Consistent styling

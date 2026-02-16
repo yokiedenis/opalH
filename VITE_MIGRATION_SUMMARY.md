@@ -43,7 +43,7 @@ Your hotel management system has been **successfully migrated from Create React 
 - ✅ Database schema design (6 MongoDB models ready)
 - ✅ Backend API routes (8 route files with skeleton endpoints)
 - ✅ Frontend components (8 React components fully styled)
-- ✅ Global styling (luxury gold/black theme, responsive design)
+- ✅ Global styling ( gold/black theme, responsive design)
 - ✅ Vite migration (all config files updated)
 - ✅ API proxy configuration (frontend ↔ backend communication setup)
 - ✅ Documentation (12 comprehensive guides)
@@ -106,7 +106,7 @@ React Router 6     - Client-side routing
 Axios 1.6.2        - HTTP client
 React DatePicker   - Calendar widget
 React Icons        - Icon library
-CSS3               - Luxury styling
+CSS3               -   styling
 ```
 
 ### Backend
@@ -156,7 +156,7 @@ Choose based on your needs:
 - **Color Scheme:** Gold (#d4af37) + Dark (#1a1a1a) + Light (#f5f5f5)
 - **Responsive:** Mobile (320px) → Tablet (768px) → Desktop (1024px+)
 - **Components:** 8 fully styled sections
-- **Theme:** Luxury hotel with modern aesthetics
+- **Theme:** hotel with modern aesthetics
 - **Performance:** Optimized with CSS Grid/Flexbox
 
 ### Sections
@@ -186,7 +186,7 @@ cd client && npm run dev
 # Browser: Opens http://localhost:3000 automatically! 🎉
 ```
 
-**That's it!** Website is live with luxury design, fully responsive, with HMR for instant changes.
+**That's it!** Website is live with design, fully responsive, with HMR for instant changes.
 
 ---
 
@@ -264,7 +264,7 @@ You'll know everything is working when:
 
 ✅ Backend starts without errors on http://localhost:5000  
 ✅ Frontend loads automatically on http://localhost:3000  
-✅ Website displays luxury gold/black design  
+✅ Website displays gold/black design  
 ✅ All 8 sections visible (Header, Hero, Rooms, Food, Gallery, Reviews, Contact, Footer)  
 ✅ Navigation menu works  
 ✅ Responsive design works (test with F12 DevTools)  

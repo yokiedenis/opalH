@@ -70,7 +70,7 @@ Expected: Opens `http://localhost:3000` in your browser! 🎉
 
 ## What You'll See
 
-✨ **Luxury Gold & Black Theme**
+✨ ** Gold & Black Theme**
 
 - Professional hotel website with modern design
 - 8 fully functional React components
@@ -118,7 +118,7 @@ client/
 │   ├── components/        # 8 React components (Header, Hero, Rooms, etc.)
 │   ├── App.jsx           # Main app
 │   ├── main.jsx          # Vite entry point
-│   └── styles/globals.css # Luxury theme (gold/black)
+│   └── styles/globals.css #   theme (gold/black)
 ├── vite.config.js        # Vite configuration
 └── package.json          # Dependencies
 
@@ -150,13 +150,13 @@ npm run start    # Start server
 
 ## Tech Stack
 
-| Layer    | Technology                          |
-| -------- | ----------------------------------- |
-| Frontend | React 18.3.1 + Vite 5               |
-| Backend  | Node.js + Express.js                |
-| Database | MongoDB (local or Atlas)            |
-| Styling  | CSS3 + CSS Variables (luxury theme) |
-| HTTP     | Axios + REST API                    |
+| Layer    | Technology                    |
+| -------- | ----------------------------- |
+| Frontend | React 18.3.1 + Vite 5         |
+| Backend  | Node.js + Express.js          |
+| Database | MongoDB (local or Atlas)      |
+| Styling  | CSS3 + CSS Variables ( theme) |
+| HTTP     | Axios + REST API              |
 
 ---
 
@@ -165,7 +165,7 @@ npm run start    # Start server
 ✅ Full website design with 8 components  
 ✅ API structure with 8 routes  
 ✅ Database models (6 schemas)  
-✅ Luxury responsive design  
+✅ responsive design  
 ✅ Vite dev environment with HMR  
 ✅ Backend/frontend communication setup
 

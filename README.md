@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Opal Heights Hotel** is a comprehensive **MERN Stack** (MongoDB, Express, React, Node.js) web application for managing a luxury hotel with integrated food/pizza delivery system, online booking, mobile money payments, and customer reviews.
+**Opal Heights Hotel** is a comprehensive **MERN Stack** (MongoDB, Express, React, Node.js) web application for managing a hotel with integrated food/pizza delivery system, online booking, mobile money payments, and customer reviews.
 
 ### 📍 Location
 
@@ -10,7 +10,7 @@
 
 ### 🎯 Key Features
 
-✅ **Room Management** - 12 Luxury Rooms (6 Single @ 60K UGX, 6 Double @ 80K UGX)  
+✅ **Room Management** - 12 Rooms (6 Single @ 60K UGX, 6 Double @ 80K UGX)  
 ✅ **Online Booking System** - Guest booking without accounts, flexible date selection  
 ✅ **Mobile Money Integration** - MTN/Airtel MoMo Pay for secure payments  
 ✅ **Food & Pizza Delivery** - Integrated restaurant menu with order management  
@@ -20,7 +20,7 @@
 ✅ **WhatsApp & Email Notifications** - Booking confirmations and order updates  
 ✅ **Social Media Integration** - TikTok, Facebook, Instagram links and embeds  
 ✅ **Contact & Location Map** - Easy guest inquiries and directions  
-✅ **Luxury Design** - Gold/Black theme with modern responsive UI
+✅ ** Design** - Gold/Black theme with modern responsive UI
 
 ---
 
@@ -241,7 +241,7 @@ opalh/
 ### Typography
 
 - Modern, professional font stack
-- Luxury aesthetic with proper spacing
+- aesthetic with proper spacing
 - Responsive text sizing
 
 ### Components
@@ -526,7 +526,7 @@ starting out, i wanted to test my ai prompt engineering skills, using copilot it
 
 # prompt two follow up questions
 
-    luxury gold/black, budget-friendly, boutique, Opal hieghts hotel, located in yesu amala, on kabulengwa road next to kamapla kids primary school,
+      gold/black, budget-friendly, boutique, Opal hieghts hotel, located in yesu amala, on kabulengwa road next to kamapla kids primary school,
 
     integrate momo pay
     book as guests

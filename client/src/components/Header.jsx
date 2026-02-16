@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaBars, FaTimes, FaShoppingCart, FaUser } from "react-icons/fa";
 import { BookingContext } from "../context/BookingContext.jsx";
 import logoImg from "@assets/images/logo.jpg";
+import what from "@assets/images/what.png";
 import "./Header.css";
 
 const Header = () => {
@@ -33,6 +34,14 @@ const Header = () => {
 
   return (
     <header className="header">
+    <Link to="/" className="logos">
+          <img
+            src={what}
+            alt="Opal Heights Hotel"
+            className="logo-img"
+            loading="lazy"
+          />
+        </Link>
       <div className="container header-content">
         <Link to="/" className="logo">
           <img

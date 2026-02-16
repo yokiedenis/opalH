@@ -14,7 +14,7 @@ Your OPAL HEIGHTS HOTEL website has been successfully scaffolded with:
 - MongoDB database schemas
 - Express backend with API routes
 - React frontend with 8 components
-- Luxury gold/black design theme
+- gold/black design theme
 
 ✅ ALL CORE FEATURES INCLUDED
 
@@ -82,7 +82,7 @@ FRONTEND (Client):
 │
 ├── Global Resources
 │ ├── BookingContext.js (State management)
-│ ├── globals.css (Luxury theme)
+│ ├── globals.css ( theme)
 │ ├── App.js (Router)
 │ └── index.html (HTML template)
 │
@@ -105,13 +105,13 @@ Email: info@opalhighshotel.com
 
 Rooms: 12 Total - 6 Single Rooms @ 60,000 UGX - 6 Double Rooms @ 80,000 UGX - Breakfast Package @ 100,000 UGX
 
-Features: Luxury rooms, restaurant, bar, rooftop garden
+Features: rooms, restaurant, bar, rooftop garden
 Design: Gold & Black elegant theme
 Capacity: 12 guests maximum
 
 # 🎨 DESIGN FEATURES
 
-COLOR SCHEME (Luxury Gold/Black):
+COLOR SCHEME ( Gold/Black):
 
 - Primary Gold: #d4af37
 - Dark Background: #1a1a1a
@@ -361,7 +361,7 @@ SERVICES TO SETUP:
 
 ✅ Styling Complete
 
-- Gold/black luxury theme
+- Gold/black theme
 - Fully responsive
 - Accessibility ready
 - Performance optimized

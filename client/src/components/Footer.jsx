@@ -21,8 +21,8 @@ const Footer = () => {
             <div className="footer-section">
               <h3>Opal Heights Hotel</h3>
               <p>
-                Experience luxury and comfort at the heart of Yesu Amala. We
-                offer world-class accommodation, delicious food, and exceptional
+                Experience and comfort at the heart of Yesu Amala. We offer
+                world-class accommodation, delicious food, and exceptional
                 service.
               </p>
               <div className="social-links">

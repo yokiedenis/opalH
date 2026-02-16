@@ -128,7 +128,7 @@ BookingContext       - Global cart & booking state
 
 | File                         | Purpose             |
 | ---------------------------- | ------------------- |
-| `src/styles/globals.css`     | **Luxury theme**    |
+| `src/styles/globals.css`     | ** theme**          |
 | `src/styles/BookingPage.css` | Booking form layout |
 | `src/styles/CartPage.css`    | Cart layout         |
 | `src/styles/AdminPage.css`   | Admin layout        |
@@ -214,7 +214,7 @@ Success message → redirect to /
 
 ## 🎨 Styling Architecture
 
-### Color Scheme (Luxury Theme)
+### Color Scheme ( Theme)
 
 ```css
 --primary-gold: #d4af37 /* Main accent */ --dark-gold: #b8941e /* Hover state */
@@ -438,7 +438,7 @@ VITE_API_BASE_URL=http://new-backend-url/api
 - Cart management
 - Admin dashboard
 - Responsive design
-- Luxury theme
+- theme
 - Error handling
 - Loading states
 

@@ -3,6 +3,7 @@ import { FaShoppingCart, FaStar } from "react-icons/fa";
 import { BookingContext } from "../context/BookingContext.jsx";
 import * as FoodImages from "@assets/images/index.js";
 import "./FoodMenu.css";
+import { MdTableRestaurant } from "react-icons/md";
 
 const API_BASE =
   import.meta.env.VITE_API_BASE_URL || "http://localhost:5000/api";
@@ -186,7 +187,7 @@ const FoodMenu = () => {
                     onClick={() => handleAddToCart(item)}
                     disabled={!item.inStock}
                   >
-                    <FaShoppingCart /> Add to Cart
+                    <MdTableRestaurant /> Add to Table
                   </button>
                 </div>
               </div>
